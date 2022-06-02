@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DhanLaxmi",
+    "slug": "DhanLaxmi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "splash": {
+      "image": "./assets/splashImage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.dhanlaxmi.DhanLaxmi",
+      "buildNumber":"1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package":"com.dhanlaxmi.DhanLaxmi",
+      "versionCode":1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
